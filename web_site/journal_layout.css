@@ -1,0 +1,57 @@
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url("yellow.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.side-bar{
+	background-color: #99E0E0;
+	float: left;
+	margin-top: 10px;
+	width: 200px;
+	padding: 15px;
+	border: 5px #009097 solid;
+}
+
+#container{
+	border: 10px white solid;
+	background-color: white;
+}
+
+#panel {
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+.panel_head {
+	font-size: 14pt;
+}
+
+.content {
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;	
+	border: 4px #C2E9E9 solid;
+}
+
+.date {
+	border-bottom: 2px #009097 dashed;
+}
+
+.content img{
+	float: right;
+}
+
+.both{
+	margin-left: 250px;
+}
+
+.adjust{
+	clear: both;
+}
+
+* *:hover {
+	background-color: yellow;
+}
